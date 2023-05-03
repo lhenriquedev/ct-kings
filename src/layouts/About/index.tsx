@@ -4,7 +4,7 @@ import React from "react";
 export default function About() {
   return (
     <section id="about" className="bg-[#fff]">
-      <div className="max-w-screen-xl px-4 py-16 lg:py-36 mx-auto lg:mt-[113px]">
+      <div className="max-w-screen-xl px-4 py-16 mx-auto lg:py-36 ">
         <div className="grid items-start grid-cols-1 lg:grid-cols-2">
           <Image
             className="rounded-full"

@@ -15,7 +15,7 @@ export default function Gallery() {
   const [index, setIndex] = useState(-1);
 
   return (
-    <section className="max-w-screen-xl text-center px-4 py-16 mx-auto md:mt-[113px]">
+    <section className="max-w-screen-xl px-4 py-16 mx-auto text-center">
       <div className="mb-12">
         <SectionTitle title="Galeria" />
       </div>

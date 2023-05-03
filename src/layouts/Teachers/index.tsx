@@ -12,7 +12,7 @@ export default function Teachers() {
           textColor="dark"
         />
 
-        <div className="flex flex-wrap items-center justify-center gap-20 mt-12">
+        <div className="flex flex-wrap items-center justify-center gap-12 mt-12">
           {teachersList.map((teacher) => (
             <TeacherCard key={teacher.id} {...teacher} />
           ))}

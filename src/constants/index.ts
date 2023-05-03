@@ -9,20 +9,22 @@ export const menuLinksList = [
 export const modalityList = [
   {
     id: 1,
-    modality: "Jiu Jitsu",
     value: "jiu-jitsu",
-    image: "/jj-2.jpg",
+    image: "/jj-1.jpg",
     title: "Jiu Jitsu",
-    description: `A palavra Jiu Jitsu significa “arte suave” devido a seu princípio de ceder para vencer, usar o peso e a força de seu adversário contra ele mesmo e, ainda, de criar para cada técnica, uma força de alavanca que lhe permita mover um oponente muito mais forte e pesado, além de fazer o uso mais eficiente das energias mental e física. A luta é indicada para aqueles que querem aprender golpes para autodefesa e ao mesmo tempo ganhar condicionamento físico, melhorar a autoestima, a autoconfiança e as habilidades motoras. O Jiu-Jitsu é também um hobby saudável e uma ótima forma de relaxar, aliviar o estresse e a ansiedade e ainda formar amizades sólidas.`,
+    description: `A palavra Jiu Jitsu significa “arte suave” devido a seu princípio de ceder para vencer, usar o peso e a força de seu adversário contra ele mesmo e, ainda, de criar para cada técnica, uma força de alavanca que lhe permita mover um oponente muito mais forte e pesado.`,
   },
   {
     id: 2,
-    modality: "Boxe",
-    value: "boxe",
-    image: "/boxe-2.jpg",
+    image: "/boxe-1.jpg",
     title: "Boxe",
-    description: `Aula em forma de circuito que usa como acessórios luvas, sacos e pads. Os golpes acionam principalmente os punhos, mas exigem que o corpo todo entre em movimento, principalmente peitoral, abdômen, pernas e quadril. Os batimentos cardíacos se mantêm altos durante o treino.
-    Os benefícios são melhora do condicionamento fisico, aumento da capacidade cardiorrespiratória e definição muscular. Melhora também a concentração, os reflexos, a coordenação motora e alivia o estresse.`,
+    description: `Aula em forma de circuito que usa como acessórios luvas, sacos e pads. Os golpes acionam principalmente os punhos, mas exigem que o corpo todo entre em movimento, principalmente peitoral, abdômen, pernas e quadril.`,
+  },
+  {
+    id: 3,
+    image: "/muay-1.jpg",
+    title: "Muay Thai",
+    description: `Aula em forma de circuito que usa como acessórios luvas, sacos e pads. Os golpes acionam principalmente os punhos, mas exigem que o corpo todo entre em movimento, principalmente peitoral, abdômen, pernas e quadril.`,
   },
 ];
 
@@ -50,6 +52,8 @@ export const galleryList = [
   { src: "image-2.jpg", width: 800, height: 400 },
   { src: "image-3.jpg", width: 1600, height: 600 },
   { src: "image-4.jpg", width: 900, height: 600 },
+  { src: "image-6.jpg", width: 900, height: 600 },
+  { src: "image-7.jpg", width: 900, height: 600 },
 ];
 
 export const slidesList = [
