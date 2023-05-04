@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 export default function Hero() {
   return (
@@ -18,22 +18,25 @@ export default function Hero() {
       <div className="max-w-screen-xl px-4 py-8 mx-auto mt-[113px] flex items-center justify-center h-full">
         <div className="max-w-2xl text-center text-white">
           <div className="flex flex-col">
-            <span className="">Seja bem vindo a Kings 🥋</span>
-            <h1 className="my-6 text-4xl md:text-6xl">
-              Centro de treinamentos <br /> de artes marciais
-            </h1>
-            <p className="mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              quasi repudiandae, ipsum delectus nemo molestias ratione dolorem,
-              excepturi explicabo culpa nulla obcaecati possimus amet quos!
-            </p>
-            <Link
-              href="#modality"
-              scroll={false}
-              className="px-10 py-4 mx-auto transition-all duration-300 bg-black rounded-md tra hover:bg-white hover:text-black"
-            >
-              Ver modalidades
-            </Link>
+            <Fade triggerOnce direction="down" cascade damping={0.1}>
+              <span className="">Seja bem vindo a Kings 🥋</span>
+              <h1 className="my-6 text-4xl md:text-6xl">
+                Centro de treinamentos <br /> de artes marciais
+              </h1>
+              <p className="mb-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                quasi repudiandae, ipsum delectus nemo molestias ratione
+                dolorem, excepturi explicabo culpa nulla obcaecati possimus amet
+                quos!
+              </p>
+              <Link
+                href="#modality"
+                scroll={false}
+                className="inline-block px-10 py-4 mx-auto transition-all duration-300 bg-black rounded-md tra hover:bg-white hover:text-black"
+              >
+                Ver modalidades
+              </Link>
+            </Fade>
           </div>
           {/* <div>
             <Image
